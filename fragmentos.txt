@@ -1,0 +1,10 @@
+self.proteico = input('''Escoja el numero del ingrediente proteico deseado:
+
+        1. Pollo
+        2. Vacuno
+        3. Carne vegetal
+
+        Sellecion: ''')
+
+        if (self.proteico in ing.proteicos) and (self.vegetal_uno in ing.vegetales) and (self.vegetal_dos in ing.vegetales) and (self.masa in ing.tipo_masa):
+            return True
